@@ -25,6 +25,7 @@ public class MainActivity extends Activity {
                 Intent intent = new Intent(getApplication(),MainActivity2.class);
                 startActivity(intent);
             }
+            
         });
     }
 }
