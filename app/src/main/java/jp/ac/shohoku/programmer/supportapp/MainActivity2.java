@@ -11,13 +11,7 @@ public class MainActivity2 extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity2_main);
 
-        //Button endButton = findViewById(R.id.endButton);
-//        endButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                finish();
-//            }
-//        });
+        
 
     }
 }

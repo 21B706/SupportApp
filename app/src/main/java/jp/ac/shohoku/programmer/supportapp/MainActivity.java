@@ -26,14 +26,5 @@ public class MainActivity extends Activity {
                 startActivity(intent);
             }
         });
-//    public void onClick(View v){
-//        //インテントの作成
-//        Intent intent = new Intent(this, MainActivity2.class);
-//       //データをセット
-//        EditText editText = (EditText)this.findViewById(R.id.Button);
-//        intent.putExtra("sendText",editText.getText().toString());
-//        //遷移先の画面を起動
-//        startActivity(intent);
-//    }
     }
 }
