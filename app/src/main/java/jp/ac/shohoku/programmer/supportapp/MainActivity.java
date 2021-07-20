@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MainActivity2.class);
-                EditText editText = findViewById(R.id.editText);
+                //EditText editText = findViewById(R.id.editText);
                 intent.putExtra("category","teacher,inquiry");
                 startActivity(intent);
             }
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MainActivity2.class);
-                EditText editText = findViewById(R.id.editText);
+                //EditText editText = findViewById(R.id.editText);
                 intent.putExtra("category","student,inquiry");
                 startActivity(intent);
             }
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MainActivity2.class);
-                EditText editText = findViewById(R.id.editText);
+                //EditText editText = findViewById(R.id.editText);
                 intent.putExtra("category","other,inquiry");
                 startActivity(intent);
             }
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MainActivity2.class);
-                EditText editText = findViewById(R.id.editText);
+                //EditText editText = findViewById(R.id.editText);
                 intent.putExtra("category","student,Disability");
                 startActivity(intent);
             }
@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MainActivity2.class);
-                EditText editText = findViewById(R.id.editText);
+                //EditText editText = findViewById(R.id.editText);
                 intent.putExtra("category","teacher,Disability");
                 startActivity(intent);
             }
@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MainActivity2.class);
-                EditText editText = findViewById(R.id.editText);
+                //EditText editText = findViewById(R.id.editText);
                 intent.putExtra("category","other,Disability");
                 startActivity(intent);
             }
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MainActivity2.class);
-                EditText editText = findViewById(R.id.editText);
+                //EditText editText = findViewById(R.id.editText);
                 intent.putExtra("category","teacher,support");
                 startActivity(intent);
             }
@@ -101,7 +101,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MainActivity2.class);
-                EditText editText = findViewById(R.id.editText);
+                //EditText editText = findViewById(R.id.editText);
                 intent.putExtra("category","student,support");
                 startActivity(intent);
             }
@@ -111,7 +111,7 @@ public class MainActivity extends AppCompatActivity  {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplication(), MainActivity2.class);
-                EditText editText = findViewById(R.id.editText);
+                //EditText editText = findViewById(R.id.editText);
                 intent.putExtra("category","other,support");
                 startActivity(intent);
             }
