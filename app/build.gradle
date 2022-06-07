@@ -5,8 +5,7 @@ apply plugin: 'com.android.application'
 android {
 
     compileSdkVersion 32
-    buildToolsVersion "32.0.2"
-
+    buildToolsVersion '32.0.0'
     defaultConfig {
         applicationId "jp.ac.shohoku.programmer.supportapp"
         targetSdkVersion 32
